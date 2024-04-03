@@ -3,10 +3,6 @@
 {
 	"name": "rstudio-jupyter",
 	"image": "ghcr.io/lescai-teaching/rstudio-jupyter:latest",
-	"overrideCommand": false,
-	"remoteUser": "rstudio",
-	"runArgs": ["--priviledged"],
-	
 	// Forward Jupyter port locally, mark required
 	"forwardPorts": [8888],
 	"portsAttributes": {
