@@ -2,7 +2,7 @@
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.238.0/containers/jupyter-datascience-notebooks
 {
 	"name": "rstudio-jupyter",
-	"image": "ghcr.io/lescai-teaching/rstudio-jupyter:latest",
+	"image": "ghcr.io/lescai-teaching/rstudio-bio-jupyter:9caf0f829707d1d2",
 	// Forward Jupyter port locally, mark required
 	"forwardPorts": [8888],
 	"portsAttributes": {
