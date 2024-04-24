@@ -7,9 +7,6 @@
 	"forwardPorts": [8888, 8787],
 	"portsAttributes": {
 		"8888": {
-			"label": "Jupyter"
-		},
-		"8787": {
 			"label": "RStudio"
 		}
 	},
@@ -23,5 +20,6 @@
 				"ms-python.python"
 			]
 		}
-	}
+	},
+	 "postCreateCommand": "sudo rstudio-server configure --www-port 8888"
 }
