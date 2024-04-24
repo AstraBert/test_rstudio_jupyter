@@ -4,7 +4,7 @@
 	"name": "rstudio-jupyter",
 	"image": "ghcr.io/lescai-teaching/rstudio-bio-jupyter:9caf0f829707d1d2",
 	// Forward Jupyter port locally, mark required
-	"forwardPorts": [8888],
+	"forwardPorts": [8888, 8787],
 	"portsAttributes": {
 		"8888": {
 			"label": "Jupyter"
